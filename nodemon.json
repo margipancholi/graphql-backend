@@ -1,0 +1,7 @@
+{
+    "env": {
+        "MONGO_USER": "margi",
+        "MONGO_PASSWORD": "margi",
+        "MONGO_DB": "employeeDatabase"
+    }
+}
