@@ -2,6 +2,8 @@
     "env": {
         "MONGO_USER": "margi",
         "MONGO_PASSWORD": "margi",
-        "MONGO_DB": "employeeDatabase"
+        "MONGO_DB": "employeeDatabase",
+        "MONGO_DB_ADDRESS": "cluster0.wem8d.mongodb.net"
     }
+    
 }

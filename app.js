@@ -136,7 +136,7 @@ app.use(
 mongoose
   .connect(
     // "mongodb+srv://margi:Margi@12@cluster0.wem8d.mongodb.net/employeesDatabase?retryWrites=true&w=majority"
-    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.wem8d.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
+    `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@${process.env.MONGO_DB_ADDRESS}/${process.env.MONGO_DB}?retryWrites=true&w=majority`
   )
   .then(() => {
     app.listen({ port: 4000 }, () =>
